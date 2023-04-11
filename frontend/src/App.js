@@ -10,7 +10,7 @@ import {
   Redirect,
   Link,
 } from "react-router-dom";
-import Footer from "./components/Layout/Footer/Footer.js";
+// import Footer from "./components/Layout/Footer/Footer.js";
 import Home from "./components/Home/Home.js";
 import ProductDetail from "./components/Product/ProductDetail";
 import SideNav from "./components/Layout/Header/SideNav.js";

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./SideNav.css";
 import { Link } from "react-router-dom";
-import logo from "../../../images/logoE1.jpg";
+
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { useState } from 'react';
