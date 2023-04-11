@@ -1,0 +1,338 @@
+.Sdashboard {
+  width: 100vw;
+  max-width: 100%;
+  /* display: grid; */
+  /* grid-template-rows: 0.04fr 5fr; */
+  /* position: absolute; */
+}
+
+.SdashboardContainer {
+  /* border-left: 1px solid rgba(0, 0, 0, 0.13); */
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 0;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.SdashboardContainer > h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font: 600 2rem "Roboto";
+  text-align: center;
+  width: 50%;
+  padding: 1.5rem;
+  margin: auto;
+  font-family: "ABEEZEE", sans-serif;
+}
+.MyProductsHeading{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+   color: rgba(0, 0, 0, 0.733);
+  /* font: 600 2.5rem "Roboto"; */
+  text-align: center;
+  width: 50%;
+  padding: 2.0rem;
+  margin: auto;
+  font-family: "ABEEZEE", sans-serif;
+}
+.MyProductsHeading>h1{
+  font-size: 2.0rem;
+
+}
+.MyStoreProductsContainer{
+  display: flex;
+  flex-direction: column;
+  padding:2rem ;
+  gap: 2rem;
+}
+
+.SdashboardSummary {
+  margin: 2rem 0;
+}
+
+.SdashboardSummary > div {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.SdashboardSummary > div > p {
+  background-color: rgb(232, 173, 8);
+  color: rgb(0, 0, 0);
+  font: 450 1.3rem ;
+   font-family: "ABEEZEE", sans-serif;
+  text-align: center;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0 2rem;
+}
+.SSrolltrigger{
+  display: flex;
+}
+.Sspan1  {
+  color: rgb(0, 0, 0);
+  font: 300 2.5rem;
+  font-size: 1.9rem;
+  text-align: center;
+  background-color: rgb(255 243 135);
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 10vmax;
+  height: 10vmax;
+  font-family: "ABEEZEE", sans-serif;
+  margin: 2rem;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.SdashboardSummaryBox2 > a:first-child {
+  background-color: rgb(255, 110, 110);
+  color: rgb(255, 255, 255);
+}
+
+.SdashboardSummaryBox2 > a:last-child {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+.SlineChart {
+  width: 80%;
+  margin: auto;
+}
+
+.SdoughnutChart {
+  width: 30vmax;
+  margin: auto;
+}
+
+.ButtonCreate{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+.ButtonCreate button{
+  margin-left: 2rem;
+  font-weight: 600;
+
+ 
+}
+.OfferButton{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+   padding: 0.5rem 1.0rem;
+  margin: 1rem;
+  background-color: #ffdd02;
+
+  /* background-color: #39b54a; */
+
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.5s;
+
+}
+
+.OfferedButton {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+ 
+  padding: 0.9rem 1.6rem;
+  background-color: #ffdd02;
+
+  /* background-color: #39b54a; */
+
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.5s;
+}
+.COfferButton{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+ 
+  padding: 0.9rem 1.6rem;
+  background-color: #39b54a;
+
+  /* background-color: #39b54a; */
+
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.5s;
+
+}
+.ButtonContainerAdmin {
+  display: flex;
+  justify-content: center;
+}
+
+.OfferedButton:hover {
+  background-color: #39b54a;
+  /* background-color: #fdbd59; */
+  transition: 0.5s;
+}
+.OfferButton:hover {
+  background-color: #39b54a;
+  /* background-color: #fdbd59; */
+  transition: 0.5s;
+}
+.Button{
+  color: rgb(159, 135, 135);
+  margin-left: 1rem;
+}
+
+.MuiButton-contained{
+  margin-left: 1rem;
+}
+.MuiButtonBase-root {
+  margin-left: 2rem;
+
+}
+.MuiButton-label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+
+.ShopinfoDashboard{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: left;
+  align-items: center;
+}
+.Shopinfocontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.Shopinfocontainer >h1,.Shopinfocontainer>h2{
+   display: flex;
+   font-size: 1.1rem;
+   padding-left: 1rem;
+   padding-bottom: 1rem;
+   font-family: 'Roboto', sans-serif;
+   align-items: flex-start;
+   text-align: left;
+}
+.Shopinfocontainer>h2{
+   font-size: 1.1rem;
+   font-weight: 400;
+}
+.ShopProductListDashboard{
+  padding-top: 1rem;
+
+}
+
+.MyStoretext {
+    color: #0b0b0b;
+    font-family: "Roboto";
+    font-size: 1.15rem;
+    line-height: 1.4em;
+    
+    margin: auto;
+    margin-top: 2rem;
+    text-align: left;
+    padding: 2rem;
+
+}
+.MyStoretext2 {
+    color: #0b0b0b;
+    font-family: "Roboto";
+    font-size: 1.15rem;
+    line-height: 1.4em;
+    
+    margin: auto;
+   
+    text-align: left;
+    padding: 2rem;
+    padding-top: 0.5rem;
+
+}
+
+@media screen and (max-width: 600px) {
+  
+  .OfferButton{
+   padding: 0.5rem 1.0rem;
+  /* background-color: #39b54a; */
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 1.0rem;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.5s;
+  }
+  .COfferButton{
+     padding: 0.5rem 1.0rem;
+  /* background-color: #39b54a; */
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 1.0rem;
+  font-weight: 600;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.5s;
+
+  }
+  .Sdashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .SdashboardContainer {
+   border-left: none;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+  .SdashboardSummary > div > p {
+    margin: 0;
+  }
+
+  .SdashboardSummaryBox2 > a {
+    padding: 0.5rem;
+    margin: 1rem;
+    font: 300 0.9rem "Roboto";
+  }
+}
+
+

@@ -1,0 +1,126 @@
+.ShopOfferButton{
+    width: 30%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+   padding: 0.5rem 1.0rem;
+  margin: 1rem;
+  background-color: #ffdd02;
+
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  justify-content: center;
+  transition: 0.5s;
+}
+.ShopOfferButton:hover {
+  background-color: #39b54a;
+  /* background-color: #fdbd59; */
+  transition: 0.5s;
+}
+.PrimeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .PrimeSubContainer{ */
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+/* } */
+.PrimeSubConatiner2{
+  display: flex;
+  flex-direction: column;
+}
+.PrimeSubContainer >p,.PrimeSubConatiner2>p{
+    color: #0b0b0b;
+    font-family: "Roboto";
+    font-size: 1.15rem;
+    line-height: 1.4em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    text-align: left;
+}
+.PrimeSubConatiner2> span{
+   color: #0b0b0b;
+    font-family: "Roboto";
+    font-size: 1.15rem;
+    line-height: 1.4em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    text-align: left;
+   margin-bottom: 2rem;
+}
+
+.PrimeSubContainer >img,.PrimeSubConatiner2>img,.PrimeContainer>img{
+  margin: auto;
+  width: 75%;
+  height: 25rem;
+}
+.ShopOfferButton{
+     width: 30%;
+  text-transform: uppercase;
+      text-align: center;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+   padding: 0.5rem 1.0rem;
+  margin: 1rem;
+  background-color: #ffdd02;
+
+  border: none;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+@media screen and (max-width: 768px) {
+  .PrimeSubContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PrimeSubContainer >p,.PrimeSubConatiner2>p{
+  text-align: left;
+  color: #0b0b0b;
+    font-family: "Roboto";
+    font-size: 1.0rem;
+    line-height: 1.2em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;  
+}
+.PrimeContainer>img,.PrimeSubConatiner2>img {
+  height: auto;
+}
+.ShopOfferButton {
+    width: 40%;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Belleza", sans-serif;
+    padding: 0.2rem 0.6rem;
+    margin: 0.5rem;
+    background-color: #ffdd02;
+    border: none;
+    border-radius: 1rem;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; 
+}
+}

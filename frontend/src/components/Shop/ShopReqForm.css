@@ -1,0 +1,186 @@
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 130vh;
+   margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.form-container >form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group >input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.ShopreqButton{
+  height: 8%;
+  border-radius: 0%;
+  background-color: #f3b925;
+  border: none;
+  padding: 1vmax;
+  width: 40%;
+  font: 300 1.1vmax "Roboto";
+  
+}
+
+.ShopreqButton:hover {
+   background-color: #e4a400;
+   cursor: pointer;
+}
+.ShopReqFormContainer{
+  display: flex;
+  flex-direction: column;
+}
+.ShopReqFormContainer>img{
+  margin: auto;
+  width: 75%;
+  height: 25rem;
+}
+.ShopReqFormContainer>p{
+    color: #0b0b0b;
+    font-family: "Roboto";
+    font-size: 1.15rem;
+    line-height: 1.4em;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    text-align: left;
+}
+.ServiceContentPoint {
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.ListContainer {
+  display: flex;
+  font-family:"Roboto" ;
+  font-weight: 800;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.li1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.li1>h4{
+  padding-left: 1rem;
+  color: #000;
+    font-family: belleza,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+.li1 svg {
+  color: #39b54a;
+  
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.li1:last-child svg {
+  color: #39b54a;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .ServiceContentPoint {
+  justify-content: center;
+  /* margin: 1.0rem; */
+  display: flex;
+  flex-direction: column;
+}
+.li1{
+  padding-left: 0.01rem;
+}
+.li1>h4{
+  font-size: 1.1rem;
+}
+
+.ShopReqFormContainer>p{
+  font-size: 1.00rem;
+    line-height: 1.0em;
+    margin-left: 3.1rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+.ShopReqFormContainer>img{
+  height: auto;
+}
+
+.ListContainer {
+  display: flex;
+  flex-direction: column;
+  
+}
+  .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 120vh;
+}
+.form-container >form {
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group >input {
+ 
+  font-size: 10px;
+ 
+}
+.ShopreqButton{
+  height: 5%;
+  border-radius: 0%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3b925;
+  border: none;
+  padding: 0.5vmax;
+  width: 40%;
+  font: 300 1.4vmax "Roboto";
+}
+   .form-container {
+      height: 90vh;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+}
+  
+  
+}
+/*  */
+.ShopProducts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,155 @@
+.paymentContainer {
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 65vh;
+  margin: 2vmax;
+}
+
+.paymentForm {
+  width: 22%;
+  height: 100%;
+}
+
+.paymentForm > p {
+  font: 400 2vmax "Roboto";
+  color: rgba(0, 0, 0, 0.753);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+  padding: 1vmax 0;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.paymentForm > div {
+  display: flex;
+  align-items: center;
+  margin: 2vmax 0;
+}
+
+.paymentInput {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+}
+
+.paymentForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.paymentFormBtn {
+  border: none;
+  background-color: #f3b925;
+  color: rgb(0, 0, 0);
+  font: 400 0.9vmax "Roboto";
+  
+  width: 60%;
+  height:2.5rem;
+  padding: 0.8vmax;
+  margin-left: 3.3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.paymentFormBtn:hover {
+    background-color: #e5a400;
+
+  border-radius: 1%;
+}
+.OpenCheckoutBtn{
+  padding: 2rem;
+  margin: auto;
+  background-color: #f3b925;
+  border: none;
+
+  border-radius: 3rem;
+  font-size: 2.1rem;
+  
+  text-transform: uppercase;
+  font-family:"Belleza", sans-serif;
+}
+.Payment2Contianer{
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+.Payment2btnContainer{
+  display: flex;
+  flex-direction: row;
+  display:flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
+}
+.Payment2btnContainer :hover{
+ cursor: pointer;
+  background-color: #39b54a;
+  transition: 0.3s linear;
+}
+.PayGateway{
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-family: "Belleza", sans-serif;
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .paymentForm {
+    width: 90%;
+  }
+
+  .paymentForm > p {
+    font: 400 8vw "Roboto";
+    padding: 4vw 0;
+    width: 60%;
+  }
+
+  .paymentForm > div {
+    margin: 10vw 0;
+  }
+
+  .paymentInput {
+    padding: 4vw 10vw;
+  }
+
+  .paymentForm > div > svg {
+    font-size: 6vw;
+  }
+
+  .paymentFormBtn {
+    font: 300 4vw "Roboto";
+   
+  }
+  .Payment2btnContainer{
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+.OpenCheckoutBtn{
+  margin-top: 5rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+
+}
+}

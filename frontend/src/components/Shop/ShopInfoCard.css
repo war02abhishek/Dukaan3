@@ -1,0 +1,102 @@
+.shop-info-card {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.shop-info-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.shop-info-card p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+  .shop-info-card .shop-owner {
+   flex-basis: 50%;
+  font-style:normal;
+}
+
+
+.shop-info-card .product-count {
+  margin-top: 0.5rem;
+}
+.Shop-Info-Button{
+  display: flex;
+ text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+   padding: 0.5rem 1.0rem;
+ 
+  background-color: #39b54a;
+  border: none;
+ 
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 600;
+  /* margin-top: 0.4rem;
+  margin-bottom: 0.4rem; */
+  margin: auto;
+   margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  width: 95%;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  /* justify-content: flex-end; */
+  transition: 0.5s;
+
+}
+
+@media screen and (min-width: 768px) {
+  .shop-info-card {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shop-info-card .shop-owner {
+   flex-basis: 50%;
+  font-style: italic;
+}
+
+  .Shop-Info-Button{
+     margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.0001rem;
+  margin-right: 0.0001rem;
+
+
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
+
+  }
+
+  .shop-info-card h2 {
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+  }
+
+  .shop-info-card p {
+    flex-basis: 50%;
+    font-size: 1.3rem;
+  }
+
+  .shop-info-card .product-count {
+    flex-basis: 50%;
+    margin-top: 1rem;
+  }
+}

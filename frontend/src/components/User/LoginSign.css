@@ -1,0 +1,14 @@
+.google{
+    z-index: 1;
+    /* width: 75rem; */
+    height: 2.4rem;
+    margin-left: 1.0rem;
+}
+.MuiGrid-item{
+        margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
