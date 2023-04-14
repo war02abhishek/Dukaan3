@@ -21,6 +21,7 @@
   margin-bottom: 1rem;
   border-radius: 5px;
   border: none;
+  outline: none;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -49,6 +50,7 @@
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .resetForm input {
@@ -77,8 +79,12 @@
 .reset-password-form {
   display: flex;
   flex-direction: column;
+  position:relative;
   align-items: center;
   margin-top: 10rem;
+  margin-bottom: 10rem;
+  /* margin: 5rem; */
+  z-index: 1;
   
 }
 
@@ -99,7 +105,7 @@
   
 
  .ResetPasswordConfirmPasswordButton {
-    width: 20rem;
+    width: 28vw;
     height: 3.5rem;
     margin-top: 1rem;
     background-color: #f3b925;

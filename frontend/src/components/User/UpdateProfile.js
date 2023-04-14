@@ -31,7 +31,7 @@ const UpdateProfile = () => {
     const [formm,setFormm] = useState({
       firstName:"",
       lastName:"",
-      email:"",
+      email:user?.email,
     });
 
     
@@ -123,7 +123,7 @@ const UpdateProfile = () => {
                     placeholder="Email"
                     required
                     name="email"
-                    // value={user?.email}
+                    value={user?.email}
                     onChange={(e) =>
                       setFormm({ ...formm, email: e.target.value })
                     }

@@ -168,6 +168,7 @@ export const forgotPassword = async (req, res, next) => {
     // }
 
     try {
+      console.log(user.email);
       await sendEmail({
         email: user.email,
         subject: `Ecommerce DUKAAN Password recovery`,
@@ -186,7 +187,7 @@ export const forgotPassword = async (req, res, next) => {
       user.resetPasswordExpire = undefined;
 
       await user.save({ validateBeforeSave: false });
-      return next(new ErrorHandler(error.message, 500));
+      return next(new ErrorHandler("Service currently Unavailable", 500));
     }
   } catch (error) {
     res.status(404).json({ message: error.message });
