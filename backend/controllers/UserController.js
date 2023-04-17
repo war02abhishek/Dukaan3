@@ -376,7 +376,8 @@ export const getSingleUser = async (req, res, next) => {
 export const updateUserRole = async (req, res, next) => {
   try {
     const newUserData = {
-      name: req.body.name,
+      firstName: req.body.firstName,
+      lastName:req.body.lastName,
       email: req.body.email,
       role: req.body.role,
     };

@@ -63,13 +63,13 @@ const UpdateUser = () => {
      } = useSelector((state) => state.profileR);
 
      useEffect(()=>{
-      if(!user)
-      {
+      // if(!user)
+      // {
         dispatch(getUserDetails(id));
-      }
+      // }
       if(isUpdated)
       {
-         alert.success("Product Updated Successfully");
+         alert.success("User Updated Successfully");
         //  navigate("/admin/users");
       }
 
@@ -89,6 +89,7 @@ const UpdateUser = () => {
                 <Input
                   name="firstName"
                   label="First Name"
+                  value={ user?.firstName}
                   handleChange={handleChange}
                   autoFocus
                   half

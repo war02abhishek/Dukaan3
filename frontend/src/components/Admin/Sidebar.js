@@ -12,15 +12,19 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import PeopleIcon from "@mui/icons-material/People";
 import RateReviewIcon from "@mui/icons-material/RateReview";
 import { Link } from "react-router-dom";
+import DukaanLogo from "../../Assets/DukaanLogo.png";
+
 const Sidebar = () => {
   return (
     <div className="sidebarA">
       <Link to="/">
-        <img
+        {/* <img
           className="logo"
           src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/black-and-yellow-logo-design-template-753d0594c51b7e8417a7a94453d69182_screen.jpg?ts=1585932268"
           alt="Ecommerce"
-        />
+        /> */}
+        <img src={DukaanLogo} alt="" />
+
       </Link>
       <Link to="/dashboard">
         <p>
@@ -53,6 +57,11 @@ const Sidebar = () => {
       <Link to="/admin/users">
         <p>
           <PeopleIcon /> Users
+        </p>
+      </Link>
+      <Link to="/admin/adminreq">
+        <p>
+          <PeopleIcon />Shop Requests
         </p>
       </Link>
       

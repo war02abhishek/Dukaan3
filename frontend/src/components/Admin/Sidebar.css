@@ -4,17 +4,24 @@
   flex-direction: row;
   padding: 4rem 10rem;
   justify-content: flex-start;
+  z-index: 1;
   height: 5rem;
-  margin-left: 6rem;
+  margin-left: 2rem;
 }
 
 .sidebarA > a:first-child {
   padding: 0;
 }
 
-
+.sidebarA > a > img {
+  padding: 0.5rem;
+   transition: all 0.5s;
+   margin-right: 0.5rem;
+}
 .sidebarA > a > img:hover {
-  filter: drop-shadow(0 0 10px tomato);
+   color: tomato;
+  transform: scale(1.1);
+  
 }
 .sidebarA a {
   text-decoration: none;

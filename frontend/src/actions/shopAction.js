@@ -63,6 +63,24 @@ export const getNearByShops = (latitude, longitude) => async (dispatch) => {
     });
   }
 };
+export const getAllShops=()=>async(dispatch)=>{
+  try {
+    dispatch({type: "GET_ALL_SHOP_REQUEST"});
+    const {data}=await axios.get("/api/v1/getAllShops");
+    console.log({data});
+
+    dispatch({ type: "GET_ALL_SHOP_SUCCESS",payload:data});
+  } catch (error) {
+    dispatch({
+      type: "GET_ALL_SHOP_FAIL",
+      payload: error.response.data.message,
+    });
+    
+  }
+
+}
+
+
 export const getShopProducts =(id)=>async(dispatch)=>{
 
   try {

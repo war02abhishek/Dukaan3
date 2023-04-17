@@ -3,6 +3,7 @@ export const ShopRequestReducer = (state = {}, action) => {
     case "CREATE_SHOP_REQUEST":
     case "CRETAE_SHOP_PRODUCT":
     case "GET_SHOPDETAILS_REQUEST":
+    case "GET_ALL_SHOP_REQUEST":
       return {
         ...state,
         loading: true,
@@ -10,6 +11,7 @@ export const ShopRequestReducer = (state = {}, action) => {
     case "CREATE_SHOP_SUCESS":
     case "CREATE_PRODUCT_SUCESS":
     case "GET_SHOPDETAILS_SUCESS":
+    case "GET_ALL_SHOP_SUCCESS":
       return {
         sucess: true,
         loading: false,
@@ -18,6 +20,7 @@ export const ShopRequestReducer = (state = {}, action) => {
     case "CREATE_SHOP_FAIL":
     case "CREATE_PRODUCT_FAIL":
     case "GET_SHOPDETAIL_FAIL":
+    case "GET_ALL_SHOP_FAIL":
       return {
         loading: false,
         error: action.payload,

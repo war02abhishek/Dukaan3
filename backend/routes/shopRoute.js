@@ -5,6 +5,7 @@ import {
   CreateShop,
   CreateShopProduct,
   GetShopDetail,
+  getAllShops,
   getNearByShops,
   // getShopProducts,
 } from "../controllers/ShopController.js";
@@ -17,6 +18,7 @@ router.post("/createshopProduct", isAuthenticatedUser,CreateShopProduct);
 router.get("/getshopdetail",isAuthenticatedUser,GetShopDetail);
 router.post("/getNearByshops", isAuthenticatedUser, getNearByShops);
 router.get("/getShopProducts/:id", isAuthenticatedUser, getShopProducts);
+router.get("/getAllShops",isAuthenticatedUser,AuthenticatedRole("admin"),getAllShops);
 
 
 export default router;

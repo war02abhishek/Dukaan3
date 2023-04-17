@@ -108,3 +108,16 @@ export const getNearByShops = async (req, res, next) => {
     res.status(404).json({ message: error.message });
   }
 };
+export const getAllShops=async(req,res,next)=>{
+  try {
+    console.log("get all shops");
+    const shops=await Shop.find();
+    console.log(shops);
+    res.status(201).json({
+      sucess: true,
+      shops,
+    });
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+}

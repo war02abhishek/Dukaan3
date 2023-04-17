@@ -56,7 +56,8 @@ function ShopReqForm() {
     console.log(formData);
     dispatch(CreateShop(formData));
     // navigate('/');
-
+    // formData.latitude="";
+    // formData.longitude="";
     setFormData({
       shopLiscNo: "",
       shopName: "",
@@ -67,6 +68,8 @@ function ShopReqForm() {
         coordinates: [],
         address: "",
       },
+       latitude:"",
+
       email: "",
     });
   };

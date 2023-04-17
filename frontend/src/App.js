@@ -69,6 +69,8 @@ import PrimeShop from "./components/Shop/PrimeShop.js";
 import ShopProducts from "./components/Shop/ShopProducts.js";
 import ShopOrder from "./components/Shop/ShopOrder.js";
 import MyStoreProducts from "./components/Shop/MyStoreProducts.js";
+import UpdateUser2 from "./components/Admin/UpdateUser2.js";
+import Shopreq from "./components/Admin/Shopreq.js";
 
 function App() {
   console.log("App.js");
@@ -165,8 +167,12 @@ function App() {
           <Route path="admin/product" element={<NewProduct />} />
           <Route path="/admin/products" element={<ProductList />} />
           <Route path="/admin/product/:id" element={<UpdateProduct />} />
-          <Route path="/admin/user/:id" element={<UpdateUser />} />
+          {/* <Route path="/admin/user/:id" element={<UpdateUser />} /> */}
+          <Route path="/admin/user/:id" element={<UpdateUser2/>} />
+
           <Route path="/admin/order/:id" element={<UpdateOrder />} />
+          <Route path="/admin/adminreq" element={<Shopreq/>} />
+
           {/* <Route path="/location" element={<LocationMap/>}/> */}
           {/* <Route path="/lop" element={<LocationM/>}/> */}
           {/* <Route path="/lopp" element={<LocationMap3 />} />
