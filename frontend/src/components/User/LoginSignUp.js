@@ -109,7 +109,10 @@ const LoginSignup = () => {
   const redirect = location.search ? location.search.split("=")[1] : "/Profile";
   useEffect(()=>{
  if (error) {
-   alert.error(error);
+  if(error != "please login to acess this resource")
+  {
+    alert.error(error);
+  }
    dispatch(clearErrors());
  }
 

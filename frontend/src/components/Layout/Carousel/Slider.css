@@ -10,7 +10,7 @@
 
   /* width: 82%; */
   /* height: auto; */
-  height: 25rem;
+  height: 85vh;
   /* margin: 100px auto 0; */
   position: relative;
   overflow: hidden;
@@ -18,14 +18,42 @@
 }
 
 
-@media screen  and (max-width:900px){
+
+@media screen  and (max-width:2003px){
   .Ccontainer-slider {
-    height: 20rem;
+    height: 75vh;
   }  
 }
+@media screen  and (max-width:1693px){
+  .Ccontainer-slider {
+    height: 95vh;
+  }  
+}
+@media screen  and (max-width:1493px){
+  .Ccontainer-slider {
+    height: 90vh;
+  }  
+}
+@media screen  and (max-width:1393px){
+  .Ccontainer-slider {
+    height: 80vh;
+  }  
+}
+@media screen  and (max-width:1100px){
+  .Ccontainer-slider {
+    height: 40vh;
+  }  
+}
+
+@media screen  and (max-width:900px){
+  .Ccontainer-slider {
+    height: 40vh;
+  }  
+}
+
 @media screen and (max-width: 700px) {
   .Ccontainer-slider {
-    height: 11rem;
+    height: 35vh;
   }
 
   .SlideArrow{
@@ -57,7 +85,8 @@
 
   background-size: 100% 100%;
   /* height: 100%; */
-  object-fit: cover;
+  object-fit:cover;
+ 
 }
 .active-anim {
   opacity: 1;
@@ -79,6 +108,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:568px){
+   .Ccontainer-slider {
+    height: 25vh;
+  }
+
+}
 @media screen and (max-width: 767px) {
 .btn-slide,
   .prev,
@@ -88,6 +123,13 @@
   }
   
 }
+@media screen and (max-width:1468px) {
+  .btn-slide {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+}
+
 .btn-slide :hover {
   color: #ffdd02;
   transition: all 0.2s linear;
@@ -121,6 +163,17 @@
   margin: 0 5px;
   background: #f1f1f1;
 }
+@media screen and (max-width:568px) {
+  .dot{
+     width: 0.3rem;
+     height: 0.3rem;
+      border-radius: 50%;
+     border: 1px solid #f1f1f1;
+
+
+  }
+  
+}
 .dot.active {
   background: rgb(32, 32, 32);
 }
@@ -146,7 +199,7 @@
   position: relative;
   text-align: center;
   color: rgb(235, 233, 233);
-  height: 50rem;
+  height:auto;
 }
 .center {
   position: absolute;

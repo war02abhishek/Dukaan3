@@ -53,7 +53,7 @@ const Home = () => {
 
           <div className="banner">
             <BannerH
-              title="Welcome to Your DUKAAN"
+              title="Welcome to BHARAT LINK"
               subtitle="Variety of amazing products below"
               >
               <a href="#container">

@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://cdn.pixabay.com/photo/2020/08/08/02/56/hacker-5471975__340.png"
+              src="https://media.licdn.com/dms/image/D4D03AQFooPn7_omOIA/profile-displayphoto-shrink_800_800/0/1686374408777?e=2147483647&v=beta&t=TDeoDp9n3GRJ4bs680cJxwoV5DtEzRaMVQLXPEpfpYI"
               alt="Founder"
             />
             <Typography>Abhishek Wanve</Typography>

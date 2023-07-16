@@ -9,6 +9,8 @@
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+   width: 40vw;
+    height: 40vh;
 
   /* margin-left: 20vmax; */
   /* margin-right: 20vmax; */
@@ -16,7 +18,7 @@
 }
 
 .bannerH h1 {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
     font-family: "Belleza", sans-serif;
 
 }
@@ -27,19 +29,19 @@
   margin: 1.7rem auto;
 }
 .bannerH p {
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   /* margin-bottom: 2rem; */
     font-family:Arial, Helvetica, sans-serif;
 
 
 }
 .Scroll {
-  width: 7rem;
-  height: 3rem;
+  width: 7vw;
+  height: 3vw;
     cursor: pointer;
     background-color: #f3b925;
     font-family: "Belleza", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.8vw;
     font-weight: 600;
     color: #000;
     text-transform: uppercase;
@@ -73,6 +75,17 @@
     
     
 }
+
+@media screen and (max-width: 1068px) {
+  .bannerH {
+    width: 40vw;
+    height: 20vh;
+     
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
 
   .bannerH {
@@ -83,8 +96,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.5);
-  color: var(--mainWhite);
+  background:transparent;
+  color: black;
  
   text-align: center;
   text-transform: capitalize;
@@ -92,12 +105,20 @@
 }
 
 .bannerH h1 {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
+  width: 70vw;
   font-family: "ABEEZEE", sans-serif;
 }
 .bannerH p {
   font-size: 1.2rem;
+   width: 50vw;
   margin-bottom: 2rem;
+}
+.Scroll {
+    width: 20vw;
+    height:8vw;
+    font-family: "Belleza", sans-serif;
+    font-size: 1.9vw
 }
 
   
@@ -112,13 +133,14 @@
 }
 
 .bannerH h1 {
-  font-size: 1.1rem;
-  /* font-family: "ABEEZEE", sans-serif; */
+    font-size: 1.8rem;
+    width: 70vw;
     font-family: "Belleza", sans-serif;
 
 }
 .bannerH p {
-  font-size: 0.7rem;
+   font-size: 1.1rem;
+   width: 50vw;
   margin-bottom: 2rem;
   font-family: "ABEEZEE", sans-serif;
 }
@@ -137,7 +159,13 @@
   font-family: Belleza,sans-serif;
 }
 .bannerH h1{
-  font-size: 1.0rem;
+  font-size: 1.2rem;
+}
+.bannerH p {
+   font-size: 0.7rem;
+   width: 50vw;
+  margin-bottom: 2rem;
+  font-family: "ABEEZEE", sans-serif;
 }
   
 

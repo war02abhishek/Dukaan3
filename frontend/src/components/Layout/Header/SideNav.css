@@ -103,7 +103,7 @@ a {
   transition: var(--transition);
   cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
-  z-index: 1;
+  z-index: 999999;
   /* transform: translate(100%); */
 }
 
@@ -132,11 +132,12 @@ a {
   padding: 8px 8px 8px 32px;
   margin-bottom: 1rem;
   text-decoration: none;
-  font-size: 25px;
-  color: #ffffff;
+  font-size: 1.8vw;
+  color: #f2f2f2;
   display: block;
   transition: 0.3s;
-  /* font-family: "Roboto"; */
+  font-family:"Belleza", sans-serif;
+  font-weight: 400;
 }
 
 .sidebar a:hover {
@@ -152,6 +153,28 @@ a {
 .links {
   padding-left: 1.5vmax;
   grid-column: auto;
+}
+
+@media screen and (min-width: 1468px) {
+  .links {
+  padding-left: 1.5vw;
+  grid-column: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  margin-bottom: 2.1vw;
+  font-size: 1.3vw;
+}
+
+  
+}
+@media screen and (min-width: 3000px) {
+  .sidebar a {
+  font-size: 1.0vw;
+}
 }
 /* .cart{
     padding-top: 2vmax;

@@ -10,7 +10,7 @@ export const isAuthenticatedUser = async (req, res, next) => {
       return next(new ErrorHandler("please login to acess this resource", 401));
     }
 
-    //jwt secrete kahase aaya
+    //jwt secrete verify karne ke leye aaya
     const decodedData = jwt.verify(token, process.env.JWT_SECRET);
     req.user = await User.findById(decodedData.id);
 

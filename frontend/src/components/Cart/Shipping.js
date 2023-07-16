@@ -85,24 +85,29 @@ const Shipping = () => {
             <div>
               <PinDropIcon />
               <input
-                type="number"
+                type="text"
                 placeholder="Pin Code"
                 required
                 value={pinCode}
                 onChange={(e) => setPinCode(e.target.value)}
+                maxLength={6}
+                minLength={6}
               />
             </div>
 
             <div>
               <LocalPhoneIcon />
               <input
-                type="number"
+                type="text"
                 placeholder="Phone Number"
                 required
                 value={phoneNo}
                 onChange={(e) => setPhoneNo(e.target.value)}
-                size="10"
+                pattern="[0-9]{10}"
+                maxLength={10}
+                minLength={10}
               />
+          
             </div>
 
             <div>

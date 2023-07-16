@@ -2,9 +2,6 @@ import axios from "axios";
 import { ADD_TO_CART, SAVE_SHIPPING_INFO, REMOVE_CART_ITEM } from "../constants/cartContant";
 
 
-
-
-
 export const addItemsToCart = (id, quantity, navigate) => async (dispatch, getState) => {
   try {
     console.log("Addd items to acart ");

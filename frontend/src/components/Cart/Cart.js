@@ -13,7 +13,7 @@ const Cart = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { cartItems } = useSelector((state) => state.cart);
-
+  const {isAuthenticated} =useSelector((state)=>state.userReducer);
 
   const increaseQuantity = (id, quantity, stock) => {
     const newQty = quantity + 1;
@@ -38,7 +38,12 @@ const Cart = () => {
   };
 
   const checkoutHandler = () => {
+    if(!isAuthenticated)
+    {
+      alert("Please login to access this resource");
+    }
     navigate("/login?redirect=shipping");
+  
   };
 
   return (

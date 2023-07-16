@@ -116,10 +116,10 @@ function ShopReqForm() {
 
 
     <div className="form-container">
-      <h1>Create Shop Request</h1>
-      <form onSubmit={handleSubmit}>
+      <h1 style={{fontFamily:'"Belleza", sans-serif'}}>Create Shop Request</h1>
+      <form style={{fontFamily:'sans-serif',fontWeight:'300'}} onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="shopLiscNo">Shop License No:</label>
+          <label style={{fontWeight:'300'}} htmlFor="shopLiscNo">Shop License No:</label>
           <input
             type="text"
             id="shopLiscNo"
@@ -130,7 +130,7 @@ function ShopReqForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="shopName">Shop Name:</label>
+          <label  style={{fontWeight:'300'}} htmlFor="shopName">Shop Name:</label>
           <input
             type="text"
             id="shopName"
@@ -141,7 +141,7 @@ function ShopReqForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="ownerName">Owner Name:</label>
+          <label  style={{fontWeight:'300'}} htmlFor="ownerName">Owner Name:</label>
           <input
             type="text"
             id="ownerName"
@@ -151,7 +151,7 @@ function ShopReqForm() {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="shopEmail">Email:</label>
+          <label  style={{fontWeight:'300'}} htmlFor="shopEmail">Email:</label>
           <input
             type="email"
             id="email"
@@ -162,7 +162,7 @@ function ShopReqForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="location">Location:</label>
+          <label  style={{fontWeight:'300'}} htmlFor="location">Location:</label>
           <input
             type="text"
             id="address"
@@ -173,7 +173,7 @@ function ShopReqForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="longitude">Longitude:</label>
+          <label  style={{fontWeight:'300'}} htmlFor="longitude">Longitude:</label>
           <input
             type="text"
             id="longitude"
@@ -184,7 +184,7 @@ function ShopReqForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="latitude">Latitude:</label>
+          <label  style={{fontWeight:'300'}} htmlFor="latitude">Latitude:</label>
           <input
             type="text"
             id="latitude"

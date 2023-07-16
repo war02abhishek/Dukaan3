@@ -32,6 +32,7 @@
   display: flex;
   background-color: white;
   justify-content: center;
+      margin-top: 10vw;
 }
 .dashboardSummary > div > p {
   background-color: rgb(232, 173, 8);
@@ -49,8 +50,9 @@
 .span1  {
   color: rgb(0, 0, 0);
   font: 300 2.5rem;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   text-align: center;
+  cursor: pointer;
   background-color: rgb(255 243 135);
   text-decoration: none;
   padding: 1.5rem;
@@ -62,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
   flex-direction: column;
 }
 

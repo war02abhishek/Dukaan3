@@ -36,7 +36,7 @@ export default function Slider() {
       setSlideIndex((prevCounter) =>
         prevCounter == dataSlider.length ? 1 : prevCounter + 1
       );
-    }, 10000);
+    }, 1000000);
 
     return () => clearInterval(interval);
   }, []);
@@ -51,7 +51,7 @@ export default function Slider() {
       >
         <div className="Ccontainer">
           <img src={dataSlider[0].url} alt="alt" />
-          <Banner1 />
+          {/* <Banner1 /> */}
         </div>
       </div>
       <div
@@ -103,8 +103,8 @@ export default function Slider() {
         </div>
       </div>
 
-      {/* <BtnSlider moveSlide={nextSlide} direction={"next"} />
-      <BtnSlider moveSlide={prevSlide} direction={"prev"} /> */}
+      <BtnSlider moveSlide={nextSlide} direction={"next"} />
+      <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
       <div className="Ccontainer-dots">
         {Array.from({ length: 5 }).map((item, index) => (
