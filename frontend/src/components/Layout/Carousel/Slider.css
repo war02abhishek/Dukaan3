@@ -107,12 +107,11 @@
   align-items: center;
   cursor: pointer;
 }
-
-@media screen and (max-width:568px){
-   .Ccontainer-slider {
-    height: 25vh;
-  }
-
+@media screen and (max-width:1468px) {
+  .btn-slide {
+  width: 2.4rem;
+  height: 2.4rem;
+}
 }
 @media screen and (max-width: 767px) {
 .btn-slide,
@@ -123,12 +122,13 @@
   }
   
 }
-@media screen and (max-width:1468px) {
-  .btn-slide {
-  width: 2.4rem;
-  height: 2.4rem;
+@media screen and (max-width:568px){
+   .Ccontainer-slider {
+    height: 25vh;
+  }
+
 }
-}
+
 
 .btn-slide :hover {
   color: #ffdd02;

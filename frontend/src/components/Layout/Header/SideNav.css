@@ -53,6 +53,7 @@
   transition: var(--transition);
   transform: translate(-100%);
   overflow-x: hidden;
+  
 }
 .show-sidebar {
   transform: translate(0);
@@ -120,6 +121,7 @@ a {
   overflow-x: hidden;
   transition: 0.5s;
   /* padding-top: 60px; */
+   z-index: 1000000;
 }
 .sidebar-header {
   display: flex;
@@ -187,6 +189,7 @@ a {
   .sidebar {
     width: 200px;
     overflow: hidden;
+    z-index: 1000000;
   }
 }
 @media screen and (max-width: 499px) {
@@ -210,6 +213,7 @@ a {
   .sidebar {
     padding-top: 15px;
     overflow: hidden;
+    z-index: 1000000;
   }
 }
 /* CSS for user Options */
