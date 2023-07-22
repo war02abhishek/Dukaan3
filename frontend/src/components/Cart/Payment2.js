@@ -35,6 +35,7 @@ const Payment2 = () => {
 
   const openStripe = () => {
     navigate("/process/stripe/payment");
+    window.location.reload();
   };
   const openCheckoutHandler = async () => {
     const response = await axios.post("/api/v1/razorpay/create", {

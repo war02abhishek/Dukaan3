@@ -44,6 +44,7 @@ const UpdateOrderP = () => {
     dispatch(getOrderDetails(id));
     if (isUpdated) {
       alert.success("Order Updated Successfully");
+      dispatch({type:"UPDATE_ORDER_RESET"});
     }
     if (error) {
       alert.error(error);
