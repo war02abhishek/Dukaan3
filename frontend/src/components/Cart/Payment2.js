@@ -53,9 +53,9 @@ const Payment2 = () => {
       key: razorpayKey,
       amount: orderInfo.totalPrice * 100, // in paise (50000 paise = 500 INR)
       order_id: orderId,
-      name: userl.firstName,
+      name:"BharatLink",
       description: "Purchase Description",
-      image: "https://pixlr.com/images/index/remove-bg.webp",
+      image: "https://www.shutterstock.com/shutterstock/photos/679463293/display_1500/stock-vector-white-hindi-text-bharat-india-with-indian-famous-monuments-creative-indian-national-flag-colors-679463293.jpg",
 
       handler: function (response) {
         console.log(response);
