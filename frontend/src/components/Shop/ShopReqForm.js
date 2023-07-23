@@ -69,6 +69,7 @@ function ShopReqForm() {
         address: "",
       },
        latitude:"",
+       longitude:"",
 
       email: "",
     });

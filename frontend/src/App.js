@@ -193,16 +193,6 @@ function App() {
           <Route path="/shopOrders" element={<ShopOrder/>}/>
           <Route path="/ShopProduct/:id" element={<MyStoreProducts/>} />
 
-
-
-
-
-
-
-
-
-
-
         </Routes>
 
         {/* <Footer /> */}

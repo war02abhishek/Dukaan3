@@ -118,7 +118,7 @@ const PrimeShop = () => {
                   Get NearBy Shops
                 </button>
 
-            <span> Here we available near you (with in 5km radius) </span>
+            <span> Here we available near you (with in 10km radius) </span>
              </div>
 
 

@@ -95,7 +95,7 @@ export const getNearByShops = async (req, res, next) => {
             coordinates: [parseFloat(latitude), parseFloat(longitude)],
           },
           $minDistance: 1,//min 1m
-          $maxDistance: 5000,//max 5km
+          $maxDistance: 10000,//max 5km
         },
       },
     });
