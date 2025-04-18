@@ -33,6 +33,14 @@ const server=app.listen(process.env.PORT, () => {
   console.log("Server is running on  http://localhost:" + process.env.PORT);
 });
 
+// FOR DEPLOYMENT PURPOSE
+// const PORT = process.env.PORT || 3000;
+// const HOST = '0.0.0.0'; // Force listen on all IPs
+
+// const server=app.listen(PORT, HOST, () => {
+//   console.log(`Server running at http://${HOST}:${PORT}`);
+// });
+
 // console.log(youtube);
 //Unhandled Promise Rejection
 process.on('unhandledRejection', err => {
